@@ -151,7 +151,7 @@ section .title::after {
 
 /* menu btn styling */
 .menu-btn {
-    color: #fff;
+    color: brown;
     font-size: 23px;
     cursor: pointer;
     display: none;
