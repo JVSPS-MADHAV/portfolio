@@ -31,6 +31,14 @@ html {
     background: #444;
 }
 
+/* Background Styling */
+body {
+    background: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+    background-color: #f2f2f2; /* Fallback color */
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Section and Container Styling */
 section {
     padding: 100px 0;
@@ -367,23 +375,21 @@ section .title::after {
 
 .services .serv-content .card .text {
     font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0;
+    font-weight: 600;
+    margin: 10px 0 7px;
+}
+
+.services .serv-content .card p {
+    color: #ccc;
 }
 
 /* Skills Section Styling */
 .skills .title::after {
-    content: "What I Know";
+    content: "What I Am Good At";
 }
 
 .skills .skills-content .column {
     width: calc(50% - 30px);
-}
-
-.skills .skills-content .left .text {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
 }
 
 .skills .skills-content .left p {
